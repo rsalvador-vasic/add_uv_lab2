@@ -1,7 +1,7 @@
 module icg_box (
   input        E,
   input        CLK, 
-  input        TE,
+  input        TE,   // Must be connected to 1'b0 in RTL instantiation
   output logic GCLK
 );
 
